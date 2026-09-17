@@ -1,0 +1,24 @@
+ConnSensy Site V9 — MVP evidente desde a abertura
+
+Base: V8. Todas as imagens e conteúdos consolidados foram preservados.
+
+Nova narrativa da Home:
+Hero → Jornada → Tecnologia → Soluções → Visão de Futuro → Parceiros → Empresa → Contato
+
+Alterações:
+- Jornada movida imediatamente para depois do Hero.
+- Tecnologia vem depois da Jornada.
+- Soluções vêm depois da Tecnologia.
+- Visão de Futuro vem depois de Soluções.
+- Parceiros vem imediatamente após Visão de Futuro.
+- Hero agora identifica claramente o estágio:
+  “TECNOLOGIA ULTRASSÔNICA · MVP EM FASE DE ESCALA”
+- Adicionados três indicadores discretos no Hero:
+  MVP desenvolvido / Tecnologia consolidada
+  Domínio tecnológico / Desenvolvimento próprio
+  Próxima etapa / Industrialização & escala
+- Evitadas afirmações como “produto certificado”, “produto validado” ou
+  “pronto para produção”.
+- Mantida a lógica:
+  Visão de Futuro = onde podemos chegar.
+  Parceiros = como queremos chegar lá.

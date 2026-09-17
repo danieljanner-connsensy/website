@@ -1,0 +1,14 @@
+ConnSensy Site V4
+
+Baseada diretamente no arquivo V3 enviado pelo usuário.
+
+Alterações:
+- Todas as imagens e alterações da V3 foram preservadas.
+- Nova seção ConnSensy Monitor depois de 'Do vento à decisão'.
+- Usa imagens/dashboardconnsensymonitor.png.
+- Item Monitor no menu desktop e mobile.
+- Removida a seção 'Aplicações' com os pills.
+- Removido o item Aplicações do menu.
+- Mantidos Crane Safety, Smart Spraying, Port Operations e Wind Farm Monitoring.
+- Texto de Wind Farm Monitoring revisado.
+- Subscribe agora referencia o ConnSensy Monitor.

@@ -1,0 +1,10 @@
+ConnSensy Site V12 — Formulário conectado ao Google Apps Script
+
+Teste recomendado:
+1. Execute o site com Live Server.
+2. Preencha Nome, E-mail e Aplicação/desafio.
+3. Envie.
+4. Confirme a mensagem de sucesso.
+5. Confirme o recebimento por Daniel e Gabriel.
+
+Os contatos diretos por e-mail continuam disponíveis como fallback.

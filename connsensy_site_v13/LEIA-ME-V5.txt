@@ -1,0 +1,14 @@
+ConnSensy Site V5 — MVP → Scale
+
+Base: V4, preservando todas as imagens locais e o layout consolidado.
+
+Principais mudanças:
+- Nova seção “Nossa Jornada”: Pesquisa → Protótipos → Ensaios → MVP → Escala.
+- MVP destacado como estágio atual e Escala como próxima etapa.
+- Mensagem de captação/escala apresentada como busca por conexões estratégicas, sem transformar a Home em pitch deck.
+- ConnSensy Monitor mantido, mas explicitamente reposicionado como visão de plataforma / roadmap.
+- Monitor removido do menu principal; “Jornada” passa a ocupar esse espaço.
+- “Subscribe / Hardware + SaaS” removido da oferta atual e substituído por “Apply / Solução + Aplicação”.
+- Tecnologia reposicionada para comunicar evolução por protótipos, MVP e domínio tecnológico para fabricação.
+- Imagens da V4/V3 preservadas.
+- Especificações técnicas ilustrativas permanecem marcadas como ilustrativas e devem ser substituídas por valores validados antes da publicação.

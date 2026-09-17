@@ -47,7 +47,7 @@ if (contactForm && formStatus) {
     if (!CONNSENSY_FORM_ENDPOINT) {
       formStatus.classList.add("error");
       formStatus.textContent =
-        "O formulário está preparado, mas ainda falta conectar o Google Apps Script. Enquanto isso, use um dos e-mails ao lado.";
+        "O formulário está preparado, mas ainda falta conectar o Google Apps Script. Enquanto isso, use um dos contatos desta seção.";
       return;
     }
 
@@ -67,7 +67,7 @@ if (contactForm && formStatus) {
     } catch (error) {
       formStatus.classList.add("error");
       formStatus.textContent =
-        "Não foi possível enviar agora. Você também pode falar diretamente com Daniel ou Gabriel pelos e-mails ao lado.";
+        "Não foi possível enviar agora. Você também pode falar diretamente com Daniel ou Gabriel pelos contatos desta seção.";
     } finally {
       contactForm.classList.remove("is-sending");
     }

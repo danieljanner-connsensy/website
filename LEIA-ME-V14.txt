@@ -1,0 +1,22 @@
+ConnSensy Site V14 — Responsiva
+
+Base: V13 funcional.
+
+Principais ajustes:
+- Layout responsivo revisado para smartphones (incluindo 320–430 px) e tablets.
+- Menu mobile com áreas de toque maiores e painel rolável.
+- Hero reorganizado para evitar sobreposição e excesso de altura.
+- Tipografia responsiva e espaçamentos menores no celular.
+- Tecnologia reorganizada verticalmente; imagem do anemômetro preservada sem cortes.
+- Soluções em uma coluna no smartphone.
+- Jornada em timeline vertical.
+- Visão de Futuro em fluxo vertical.
+- Parceiros em uma coluna com CTA de largura total.
+- Contato em coluna única, campos com 100% da largura e e-mails com quebra segura.
+- Inputs com 16px no mobile para evitar zoom automático em iPhone.
+- Texto de fallback do formulário tornou-se independente da posição dos contatos.
+- Mantido endpoint funcional do Google Apps Script da V13.
+- Melhorias para toque e preferência de redução de movimento.
+
+Teste recomendado antes de publicar:
+320 px, 360 px, 390 px, 430 px, tablet e desktop.

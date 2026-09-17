@@ -1,5 +1,0 @@
-ConnSensy V13
-- Novo endpoint validado do Google Apps Script.
-- POST usa mode: "no-cors" para evitar falso erro causado pelo redirecionamento do ContentService.
-- Mantidos validação, honeypot, contatos e mensagens de status.
-Teste pelo Live Server e confirme o recebimento do e-mail.

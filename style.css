@@ -2025,3 +2025,61 @@ img { max-width: 100%; }
   *,*::before,*::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* =========================================================
+   V15 — refinamentos do Hero em smartphone
+   ========================================================= */
+@media (max-width: 720px) {
+  /* Mantém a fotografia como protagonista: widgets compactos e discretos. */
+  .hero-scene {
+    height: min(70vw, 310px);
+    min-height: 235px;
+  }
+  .hero-dashboard {
+    width: 132px;
+    padding: 9px 11px;
+    border-radius: 13px;
+    transform: none;
+    backdrop-filter: blur(9px);
+    box-shadow: 0 8px 20px rgba(9,32,62,.11);
+  }
+  .hero-dashboard span {
+    margin-bottom: 3px;
+    font-size: .53rem;
+    line-height: 1.25;
+  }
+  .hero-dashboard strong {
+    font-size: .83rem;
+    line-height: 1.15;
+  }
+  .hero-dashboard .safe { font-size: .60rem; }
+  .hero-dashboard .sparkline {
+    height: 19px;
+    gap: 2px;
+    margin-top: 5px;
+  }
+  .hero-dashboard .sparkline i { width: 8px; }
+  .d1 { top: 9%; right: 3%; }
+  .d2 { top: 40%; right: 3%; }
+  .d3 { top: 67%; right: 3%; }
+
+  /* Benefícios em uma coluna: leitura mais clara no celular. */
+  .hero-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    margin-top: 28px;
+  }
+  .hero-benefits span { display: block; width: 100%; }
+}
+
+@media (max-width: 390px) {
+  .hero-dashboard {
+    width: 122px;
+    padding: 8px 10px;
+    transform: none;
+  }
+  .hero-dashboard strong { font-size: .78rem; }
+  .hero-dashboard .safe { font-size: .56rem; }
+}

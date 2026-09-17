@@ -1,0 +1,10 @@
+ConnSensy Website V15
+
+Refinamentos de responsividade sobre a V14:
+- Widgets do Hero reduzidos no smartphone para preservar a imagem de operação portuária.
+- Tipografia, padding, sparkline e sombras dos widgets ajustados para telas pequenas.
+- Posicionamento dos três widgets redistribuído verticalmente no Hero.
+- Benefícios "Mais segurança", "Mais eficiência" e "Dados em tempo real" empilhados no smartphone.
+- Layout desktop preservado.
+
+Base: V14 responsiva.

@@ -1,0 +1,19 @@
+ConnSensy Site V8 — Narrativa enxuta
+
+Base: V7. Todas as imagens e o posicionamento MVP → Escala foram preservados.
+
+Mudanças:
+- Removida completamente a seção branca “Do vento à decisão”.
+- Mantida a seção azul “Visão de Futuro — Da medição à inteligência” como o único
+  fluxo conceitual da Home.
+- Mantido o fluxo Sense → Connect → Understand → Decide.
+- Mantida a indicação discreta de possíveis evoluções:
+  monitoramento remoto, alarmes, histórico, mapas de vento e analytics.
+- Texto revisado para não sugerir que uma arquitetura de conectividade já está definida:
+  “A tecnologia ConnSensy abre caminho para uma evolução além da medição,
+   conectando dados, contexto e inteligência para apoiar decisões operacionais.”
+- Mais espaço vertical na seção Visão de Futuro.
+- Jornada e Parceiros permanecem conectados pela narrativa MVP → Escala.
+
+Narrativa pretendida:
+Hero → Tecnologia → Jornada → Visão de Futuro → Soluções → Parceiros → Empresa → Contato

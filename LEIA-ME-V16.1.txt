@@ -1,0 +1,3 @@
+ConnSensy Website V16.1
+
+Refinamento do seletor de idioma com bandeiras vetoriais do Brasil e Estados Unidos, evitando dependencia da renderizacao de emojis do sistema.

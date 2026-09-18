@@ -10,6 +10,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+<style id="v16-1-language-flags">
+.lang-btn{display:inline-flex;align-items:center;justify-content:center;gap:5px}
+.lang-flag{width:20px;height:14px;flex:0 0 20px;display:block;border-radius:2px;box-shadow:0 0 0 1px rgba(11,31,59,.12)}
+.mobile-language-switcher .lang-flag{width:24px;height:17px;flex-basis:24px}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -23,10 +29,18 @@
       <a href="#parceiros">Parceiros</a>
       <a href="#empresa">Empresa</a>
     </nav>
+    <div class="language-switcher" role="group" aria-label="Selecionar idioma / Select language">
+      <button type="button" class="lang-btn active" data-lang="pt" aria-label="Português do Brasil"><svg class="lang-flag" viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="2" fill="#009B3A"/><path d="M14 2.4 25 10 14 17.6 3 10Z" fill="#FFDF00"/><circle cx="14" cy="10" r="4.2" fill="#002776"/></svg><span>PT</span></button>
+      <button type="button" class="lang-btn" data-lang="en" aria-label="English"><svg class="lang-flag" viewBox="0 0 28 20" aria-hidden="true"><defs><clipPath id="usClip"><rect width="28" height="20" rx="2"/></clipPath></defs><g clip-path="url(#usClip)"><rect width="28" height="20" fill="#fff"/><path d="M0 0h28v1.54H0zm0 3.08h28v1.54H0zm0 3.08h28V7.7H0zm0 3.08h28v1.54H0zm0 3.08h28v1.54H0zm0 3.08h28v1.54H0zm0 3.08h28V20H0z" fill="#B22234"/><rect width="12" height="10.77" fill="#3C3B6E"/><g fill="#fff" opacity=".95"><circle cx="2" cy="2" r=".55"/><circle cx="5" cy="2" r=".55"/><circle cx="8" cy="2" r=".55"/><circle cx="11" cy="2" r=".55"/><circle cx="3.5" cy="4.2" r=".55"/><circle cx="6.5" cy="4.2" r=".55"/><circle cx="9.5" cy="4.2" r=".55"/><circle cx="2" cy="6.4" r=".55"/><circle cx="5" cy="6.4" r=".55"/><circle cx="8" cy="6.4" r=".55"/><circle cx="11" cy="6.4" r=".55"/><circle cx="3.5" cy="8.6" r=".55"/><circle cx="6.5" cy="8.6" r=".55"/><circle cx="9.5" cy="8.6" r=".55"/></g></g></svg><span>EN</span></button>
+    </div>
     <a class="btn btn-primary btn-small" href="#contato">Fale conosco</a>
     <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
   </div>
   <div class="mobile-menu">
+    <div class="mobile-language-switcher" role="group" aria-label="Selecionar idioma / Select language">
+      <button type="button" class="lang-btn active" data-lang="pt"><svg class="lang-flag" viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="2" fill="#009B3A"/><path d="M14 2.4 25 10 14 17.6 3 10Z" fill="#FFDF00"/><circle cx="14" cy="10" r="4.2" fill="#002776"/></svg><span>Português</span></button>
+      <button type="button" class="lang-btn" data-lang="en"><svg class="lang-flag" viewBox="0 0 28 20" aria-hidden="true"><defs><clipPath id="usClip"><rect width="28" height="20" rx="2"/></clipPath></defs><g clip-path="url(#usClip)"><rect width="28" height="20" fill="#fff"/><path d="M0 0h28v1.54H0zm0 3.08h28v1.54H0zm0 3.08h28V7.7H0zm0 3.08h28v1.54H0zm0 3.08h28v1.54H0zm0 3.08h28v1.54H0zm0 3.08h28V20H0z" fill="#B22234"/><rect width="12" height="10.77" fill="#3C3B6E"/><g fill="#fff" opacity=".95"><circle cx="2" cy="2" r=".55"/><circle cx="5" cy="2" r=".55"/><circle cx="8" cy="2" r=".55"/><circle cx="11" cy="2" r=".55"/><circle cx="3.5" cy="4.2" r=".55"/><circle cx="6.5" cy="4.2" r=".55"/><circle cx="9.5" cy="4.2" r=".55"/><circle cx="2" cy="6.4" r=".55"/><circle cx="5" cy="6.4" r=".55"/><circle cx="8" cy="6.4" r=".55"/><circle cx="11" cy="6.4" r=".55"/><circle cx="3.5" cy="8.6" r=".55"/><circle cx="6.5" cy="8.6" r=".55"/><circle cx="9.5" cy="8.6" r=".55"/></g></g></svg><span>English</span></button>
+    </div>
     <a href="#jornada">Jornada</a>
     <a href="#tecnologia">Tecnologia</a>
     <a href="#solucoes">Soluções</a>

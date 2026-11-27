@@ -2138,3 +2138,22 @@ img { max-width: 100%; }
     background:rgba(18,103,229,.08);
   }
 }
+
+/* V19 technology */
+#tecnologia .tech-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,.95fr) minmax(0,.78fr);gap:32px;align-items:center}
+#tecnologia .tech-copy h2{font-size:clamp(2rem,3.1vw,3.1rem)}
+#tecnologia .feature-grid{gap:10px;margin:24px 0}
+#tecnologia .feature-grid div{border:1px solid #e1eaf5;border-radius:12px;padding:13px;align-content:start;background:#fff;gap:4px}
+#tecnologia .feature-grid svg{width:24px;height:24px;color:var(--blue);margin-bottom:4px}
+#tecnologia .feature-grid span{line-height:1.45}
+#tecnologia .tech-visual{min-height:440px;isolation:isolate}
+#tecnologia .tech-orbit{width:100%;height:auto;aspect-ratio:1;background:radial-gradient(circle,#e8f2ff 0%,#f6faff 70%);z-index:-1}
+#tecnologia .tech-product-image{width:100%;max-width:420px;max-height:540px}
+#tecnologia .spec-card{padding:20px}
+#tecnologia .spec-card h3{font-size:.92rem;color:var(--navy);margin:0 0 6px}
+#tecnologia .spec-card div{padding:12px 0}
+#tecnologia .spec-card strong{font-size:1.12rem}
+#tecnologia .spec-card small{font-size:.7rem;color:var(--muted)}
+@media(max-width:1050px){#tecnologia .tech-grid{grid-template-columns:1.2fr 1fr}#tecnologia .spec-card{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:0 24px}#tecnologia .spec-card h3,#tecnologia .spec-card small{grid-column:1/-1}}
+@media(max-width:720px){#tecnologia .tech-grid{display:flex;gap:24px}#tecnologia .tech-visual{min-height:300px}#tecnologia .tech-orbit{width:min(85vw,340px)}#tecnologia .tech-product-image{max-width:330px;max-height:440px}#tecnologia .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#tecnologia .spec-card{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}}
+@media(max-width:360px){#tecnologia .feature-grid{grid-template-columns:1fr}}
